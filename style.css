@@ -1,3 +1,6 @@
+/* css do caixa principal de cada página, que contem o logo e os botoes com os links que direcionam para
+as paginas das outras materias */
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -58,7 +61,7 @@ footer {
 	padding: 40px 0;
 }
 
-/* css da home */
+/* css parccial da home */
 
 .banner {
 	width: 100%;	
