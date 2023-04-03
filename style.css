@@ -17,6 +17,10 @@ header {
     padding: 20px;
 }
 
+.caixa ul {
+	font-family: 'Montserrat', sans-serif;
+}
+
 nav {
 	position: absolute;
 	top: -10px;	
@@ -57,11 +61,10 @@ form label, form legend {
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
 	padding: 40px 0;
 }
 
-/* css parccial da home */
+/* css parcial da home */
 
 .banner {
 	width: 100%;	

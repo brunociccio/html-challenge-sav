@@ -1,0 +1,36 @@
+.diagrama h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #177ac5;
+    text-align: center;
+    margin: 25px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.diagrama p {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0 0 10px;
+}
+
+.diagrama h3 {
+    width: 100%;
+    position: relative;
+    padding: 15px 120px 15px 120px;
+
+}
+
+.diagrama ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+    margin: 15px 0 15px 20px;
+}
+
+.diagrama li:before {
+    content: "-";
+    margin: 10px;
+}
