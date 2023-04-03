@@ -1,7 +1,11 @@
+.diagrama {
+    background: linear-gradient(#FEFEFE, #428bc3);
+}    
+
 .diagrama h2 {
     font-weight: bold;
     font-size: 50px;
-    color: #177ac5;
+    color: #194ac7;
     text-align: center;
     margin: 25px 0 10px 0;
     font-family: 'Montserrat', sans-serif;
