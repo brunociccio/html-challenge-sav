@@ -1,13 +1,14 @@
 .diagrama {
-    background: linear-gradient(#FEFEFE, #428bc3, #177ac5);
+    background: linear-gradient(#53bce5, #428bc3, #b717c5);
+    width: 100%;
 }    
 
 .diagrama h2 {
     font-weight: bold;
     font-size: 50px;
-    color: #194ac7;
+    color: #ffffff;
     text-align: center;
-    margin: 25px 0 10px 0;
+    padding: 20px;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -17,12 +18,13 @@
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 0 0 10px;
+    color: #ffffff;
 }
 
 .diagrama h3 {
-    width: 100%;
     position: relative;
     padding: 15px 120px 15px 120px;
+    
 
 }
 
@@ -32,9 +34,11 @@
     text-align: left;
     display: inline-block;
     margin: 15px 0 15px 20px;
+    color: #ffffff;
 }
 
 .diagrama li:before {
     content: "-";
     margin: 10px;
+    color: #ffffff;
 }

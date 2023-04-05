@@ -1,20 +1,20 @@
 /* css do caixa principal de cada página, que contem o logo e os botoes com os links que direcionam para
 as paginas das outras materias */
 
-body {
-	font-family: 'Montserrat', sans-serif;
-}
 
-header {
-	background: #fff;
-	padding: 20px 0;
+.container {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-areas: "header" 
+	"main"
+	"footer";
 }
 
 .caixa {
 	position: relative;
-	width: 1350px;
-	margin: 20px;
-    padding: 20px;
+	margin: 0px;
+    padding: 15px;
+	background: linear-gradient(#b717c5, #428bc3, #53bce5);
 }
 
 .caixa ul {
@@ -23,18 +23,19 @@ header {
 
 nav {
 	position: absolute;
-	top: -10px;	
-	right: 0;
+	top: 10px;	
+	right: 30px;
+	
 }
 
 nav li {
 	display: block;
-	margin: 7px;
+	margin: 8px;
 }
 
 nav a {
 	text-transform: uppercase;
-	color: #177ac5;
+	color: #fafafa;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
@@ -45,29 +46,23 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-main form {
-	padding: 10px;
-}
-
-form {
-	margin: 40px 0;
-}
-
-form label, form legend {
-	display: block;
-	font-size: 20px;
-	margin: 0 0 10px;
-}
 
 footer {
 	text-align: center;
-	padding: 40px 0;
-	background-color: #177ac5;
-	color: #fff;
+	padding: 20px 0;
+	margin-top: 10px;
+	background: linear-gradient(#b717c5, #d018e1)
+	
+}
+
+footer p {
+	color: #fafafa;
+	padding: 20px;
 }
 
 /* css parcial da home */
 
-.banner {
-	width: 100%;	
+body {
+	display: block;
+	width: 100%;
 }

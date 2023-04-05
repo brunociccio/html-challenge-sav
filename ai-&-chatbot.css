@@ -1,14 +1,14 @@
 #div__p{
     background: rgb(149,213,230);
-    background: linear-gradient(180deg, rgba(149,213,230,1) 0%, rgba(24,174,220,1) 36%, rgba(16,93,116,1) 84%);
+    background: linear-gradient(#53bce5, #428bc3, #b717c5);
 }
 
 #titulo__p{
     font-weight: bold;
     font-size: 50px;
-    color: #194ac7;
+    color: #ffffff;
     text-align: center;
-    margin: 25px 0 10px 0;
+    padding: 15px;
     font-family: 'Montserrat', sans-serif;
 }
 
