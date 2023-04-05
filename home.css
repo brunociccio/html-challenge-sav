@@ -1,0 +1,22 @@
+.principal{
+    background: rgb(149,213,230);
+    background: linear-gradient(#53bce5, #428bc3, #b717c5);
+    width: 100%;
+}
+
+#titulo{
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragrafo{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0 0 10px;
+}
