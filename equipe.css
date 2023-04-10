@@ -12,6 +12,14 @@
     font-family: 'Montserrat', sans-serif;   
 }
 
+.equipe p {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0 0 10px;
+    color: #ffffff;
+}
+
 .equipe h3 {
     padding-left: 95px;
 }
