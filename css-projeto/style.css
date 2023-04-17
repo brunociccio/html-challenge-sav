@@ -1,0 +1,70 @@
+/* css do caixa principal de cada página, que contem o logo e os botoes com os links que direcionam para
+as paginas das outras materias */
+
+
+.container {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-areas: "header" 
+	"main"
+	"footer";
+}
+
+.caixa {
+	position: relative;
+	margin: 0px;
+    padding: 15px;
+	background: linear-gradient(#b717c5, #428bc3, #53bce5);
+}
+
+.caixa ul {
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	position: absolute;
+	top: 20px;	
+	right: 30px;
+	
+}
+
+nav li {
+	display: block;
+	margin: 8px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #fafafa;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #194ac7;
+	text-decoration: underline;
+}
+
+
+footer {
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 10px;
+	background: url(imagens-projeto/fundo-de-tela-sav.jpeg);
+	
+}
+
+footer p {
+	color: #fafafa;
+	padding: 20px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* css parcial da home */
+
+body {
+	display: block;
+	width: 100%;
+}
